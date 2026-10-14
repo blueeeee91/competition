@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>陆海鹏 · 竞选班级团支书</title>
+  <meta name="description" content="陆海鹏竞选班级团支部书记个人网站 —— 以心换心，以行践诺。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 顶部阅读进度条 -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ========== 导航栏 ========== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-seal">团</span>
+        <span class="logo-text">陆海鹏<em>·竞选团支书</em></span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">首页</a></li>
+        <li><a href="#about" class="nav-link">关于我</a></li>
+        <li><a href="#manifesto" class="nav-link">竞选宣言</a></li>
+        <li><a href="#experience" class="nav-link">成长履历</a></li>
+        <li><a href="#honors" class="nav-link">荣誉墙</a></li>
+        <li><a href="#support" class="nav-link">支持我</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="#support" class="btn btn-primary btn-sm nav-cta">投我一票</a>
+        <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== 首屏 ========== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" id="heroBg">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-tag reveal">
+            <span class="dot"></span>2026 · 班级团支书竞选
+          </p>
+          <h1 class="hero-name reveal">陆海鹏</h1>
+          <h2 class="hero-role reveal">
+            竞选 <span class="hl">班级团支书</span>
+            <span class="type-line"><span id="typewriter"></span><span class="cursor">|</span></span>
+          </h2>
+          <p class="hero-slogan reveal">
+            以心换心，以行践诺 —— 做同学们身边那盏随时为你亮着的灯。
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="#support" class="btn btn-gold">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 21s-7.5-4.7-9.6-9.3C.9 8.4 3 5 6.4 5c2 0 3.4 1.1 4.4 2.5.2.3.6.3.8 0C12.6 6.1 14 5 16 5c3.4 0 5.5 3.4 4 6.7C19.5 16.3 12 21 12 21z"/></svg>
+              投我一票
+            </a>
+            <a href="#plan" class="btn btn-ghost">看看我的工作计划</a>
+          </div>
+
+          <ul class="hero-facts reveal">
+            <li><strong data-count="180" data-suffix="h">0</strong><span>志愿服务时长</span></li>
+            <li><strong data-count="32" data-suffix="场">0</strong><span>参与组织活动</span></li>
+            <li><strong data-count="96" data-suffix="%">0</strong><span>同学满意度</span></li>
+          </ul>
+        </div>
+
+        <!-- 右侧：印章式形象卡 -->
+        <aside class="hero-card reveal">
+          <div class="card-ribbon">候选人</div>
+          <div class="seal-ring">
+            <div class="seal-inner">
+              <span class="seal-char">陆</span>
+              <span class="seal-sub">海鹏</span>
+            </div>
+          </div>
+          <h3 class="hero-card-name">陆海鹏</h3>
+          <p class="hero-card-meta">光电2603</p>
+          <ul class="hero-card-list">
+            <li><span>政治面貌</span><b>共青团员</b></li>
+            <li><span>现任职务</span><b>数理院科创部成员</b></li>
+            <li><span>竞选职位</span><b>班级团支书</b></li>
+            <li><span>座右铭</span><b>宏大的世界终会稀释痛苦</b></li>
+          </ul>
+          <div class="card-stamp">青春<br />担当</div>
+        </aside>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="向下滚动">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14m0 0-6-6m6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ========== 关于我 ========== -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-eyebrow reveal">ABOUT ME</p>
+        <h2 class="section-title reveal">关于我</h2>
+        <p class="section-sub reveal">三年高中班级工作，让我明白：团支书不是一个头衔，而是一份需要每天兑现的承诺。</p>
+
+        <div class="about-grid">
+          <div class="about-photo reveal">
+            <div class="photo-frame">
+              <img src="photo.jpg" alt="陆海鹏" />
+            </div>
+            <div class="photo-caption">
+              <span class="cap-line"></span>
+              <p>光电2603 · 陆海鹏</p>
+            </div>
+          </div>
+
+          <div class="about-body">
+            <div class="about-text reveal">
+              <p>
+                大家好，我是<strong>陆海鹏</strong>，光电2603的一名学生。
+                高中三年，我担任班长并兼任心理委员，参与并组织了
+                <strong>30 余场</strong>班级活动，也陪伴过许多同学度过课业最难的那段日子。
+              </p>
+              <p>
+                我做事有三个习惯：<strong>提前想一步、事情落到人、结果有回音</strong>。
+                从活动策划、物资清点到复盘总结，我熟悉一个班级事务从想法到落地的完整流程。
+              </p>
+              <p>
+                这一次我选择站出来竞选团支书，不是为了多一个职务，
+                而是希望把过去三年积累的经验，变成让<strong>每一个同学都被看见</strong>的班级日常。
+              </p>
+            </div>
+
+            <ul class="about-facts reveal">
+              <li>
+                <span class="fact-label">学院 / 班级</span>
+                <span class="fact-value">数理科学学院 · 光电2603</span>
+              </li>
+              <li>
+                <span class="fact-label">政治面貌</span>
+                <span class="fact-value">共青团员</span>
+              </li>
+              <li>
+                <span class="fact-label">现任职务</span>
+                <span class="fact-value">数理院科创部成员</span>
+              </li>
+              <li>
+                <span class="fact-label">兴趣特长</span>
+                <span class="fact-value">跑步 / 登山徒步 / 活动策划 / 硬件软件</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 竞选宣言 ========== -->
+    <section class="section section-alt" id="manifesto">
+      <div class="container">
+        <p class="section-eyebrow reveal">MY PROMISE</p>
+        <h2 class="section-title reveal">竞选宣言</h2>
+        <p class="section-sub reveal">三句承诺，说给你听，也请你监督。</p>
+
+        <div class="manifesto-quote reveal">
+          <span class="quote-mark">“</span>
+          <p>
+            我不想承诺做不到的事。我只承诺——<br />
+            <b>每一次通知都说明白，每一件难事都有着落，每一个同学都不被落下。</b>
+          </p>
+        </div>
+
+        <div class="promise-grid">
+          <article class="promise-card reveal">
+            <span class="promise-num">01</span>
+            <h3>做“听得见”的团支书</h3>
+            <p>
+              每月固定一次班级意见征集，匿名也行、当面也行。
+              所有建议在三天内给出回复，能办的马上办，办不到的说明原因。
+            </p>
+          </article>
+          <article class="promise-card reveal">
+            <span class="promise-num">02</span>
+            <h3>做“靠得住”的团支书</h3>
+            <p>
+              建立班级事务台账，奖助学金、评优评先、材料提交节点提前提醒，
+              不让任何一位同学因为错过通知而吃亏。
+            </p>
+          </article>
+          <article class="promise-card reveal">
+            <span class="promise-num">03</span>
+            <h3>做“带得动”的团支书</h3>
+            <p>
+              整个班级是一个大集体，让大家不只是同学，
+              而是能一起拼、一起玩的伙伴。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 成长履历 ========== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="section-eyebrow reveal">EXPERIENCE</p>
+        <h2 class="section-title reveal">成长履历</h2>
+        <p class="section-sub reveal">从参与者到组织者，每一步都算数。</p>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">2023.09</span>
+              <h3>入学 · 担任高中班级班长</h3>
+              <p>负责活动策划、成绩统计与学习资料整理，建立起一个完整的班集体。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">2024.03</span>
+              <h3>策划并组织运动会开幕式</h3>
+              <p>班级获校运动会开幕式表演一等奖。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">2024.10</span>
+              <h3>担任班级心理委员</h3>
+              <p>说实话，基本没出啥力，班级同学也没有跳楼的。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">2025.05</span>
+              <h3>参与组织高考送行活动</h3>
+              <p>负责统筹策划、分工协调与物资管理，活动参与率达 95%，获校级优秀活动案例。</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-dot highlight"></div>
+            <div class="timeline-card is-current">
+              <span class="timeline-time">2026.10</span>
+              <h3>竞选班级团支书</h3>
+              <p>带着三年班级工作经验与一份可落地的任期规划，站在这里，请求你的信任。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== 荣誉墙 ========== -->
+    <section class="section" id="honors">
+      <div class="container">
+        <p class="section-eyebrow reveal">HONORS</p>
+        <h2 class="section-title reveal">荣誉与数据</h2>
+        <p class="section-sub reveal">不为炫耀，只为证明这些事我真的做过。</p>
+
+        <div class="honor-grid">
+          <div class="honor-card reveal">
+            <div class="honor-medal">★</div>
+            <h3>校级优秀学生</h3>
+            <p>2024 — 2025 学年</p>
+          </div>
+          <div class="honor-card reveal">
+            <div class="honor-medal">★</div>
+            <h3>校级优秀学生干部</h3>
+            <p>2025 学年</p>
+          </div>
+          <div class="honor-card reveal">
+            <div class="honor-medal">★</div>
+            <h3>志愿服务先进个人</h3>
+            <p>累计服务 180 小时</p>
+          </div>
+          <div class="honor-card reveal">
+            <div class="honor-medal">★</div>
+            <h3>班级优秀活动案例</h3>
+            <p>主题团日活动策划</p>
+          </div>
+        </div>
+
+        <div class="stat-bar reveal">
+          <div class="stat">
+            <strong data-count="32">0</strong>
+            <span>组织 / 参与活动（场）</span>
+          </div>
+          <div class="stat">
+            <strong data-count="180">0</strong>
+            <span>志愿服务时长（小时）</span>
+          </div>
+          <div class="stat">
+            <strong data-count="6">0</strong>
+            <span>互助小组（个）</span>
+          </div>
+          <div class="stat">
+            <strong data-count="96" data-suffix="%">0</strong>
+            <span>同学满意度</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 支持我 ========== -->
+    <section class="section section-red" id="support">
+      <div class="container">
+        <p class="section-eyebrow reveal">SUPPORT ME</p>
+        <h2 class="section-title reveal">请为我投出宝贵的一票</h2>
+        <p class="section-sub reveal">
+          我会在不破坏原则的情况下让每一位同学都开心的，如果你相信我，就请把票头给我。
+        </p>
+
+        <div class="support-layout">
+          <div class="vote-card reveal">
+            <p class="vote-label">点击一次，代表你的一份支持</p>
+            <button class="vote-btn" id="voteBtn" type="button">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 21s-7.5-4.7-9.6-9.3C.9 8.4 3 5 6.4 5c2 0 3.4 1.1 4.4 2.5.2.3.6.3.8 0C12.6 6.1 14 5 16 5c3.4 0 5.5 3.4 4 6.7C19.5 16.3 12 21 12 21z"/></svg>
+              <span>支持陆海鹏</span>
+            </button>
+            <p class="vote-count">已有 <strong id="voteCount">0</strong> 份支持</p>
+            <p class="vote-note" id="voteNote">数据保存在你的浏览器本地，仅用于现场演示。</p>
+          </div>
+
+          <div class="msg-card reveal">
+            <h3>留下你的期待</h3>
+            <form class="msg-form" id="msgForm">
+              <input type="text" id="msgName" maxlength="12" placeholder="你的称呼（可匿名）" />
+              <textarea id="msgText" rows="3" maxlength="140" placeholder="你希望班级变得更好的一件事…" required></textarea>
+              <button type="submit" class="btn btn-primary">提交留言</button>
+            </form>
+            <ul class="msg-list" id="msgList"></ul>
+          </div>
+        </div>
+
+        <div class="contact-row reveal">
+          <a href="mailto:hello@example.com" class="contact-item">
+            <span class="ci-icon">✉</span>
+            <span>
+              <b>邮箱</b>
+              <em>923424491@qq.com</em>
+            </span>
+          </a>
+          <a href="#" class="contact-item">
+            <span class="ci-icon">◍</span>
+            <span>
+              <b>微信</b>
+              <em>Blueeeee91</em>
+            </span>
+          </a>
+          <a href="#" class="contact-item">
+            <span class="ci-icon">☎</span>
+            <span>
+              <b>电话</b>
+              <em>15252720391</em>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-main">陆海鹏 · 竞选班级团支书</p>
+    <p class="footer-sub">以心换心，以行践诺 · 请为我投出宝贵的一票</p>
+    <p class="footer-copy">© 2026 陆海鹏 个人竞选主页</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="回到顶部">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
